@@ -8,13 +8,10 @@
 #include "btn_http.h"
 
 
-//const char ssid[] = "mokkula_714148"; //  your WiFi SSID (name)
-//const char pass[] = "EYR6FJH8E5R";    // your WiFi password (use for WPA, or use as key for WEP)
-
 const char ssid[] = "4965e7";
-const char pass[] = "249842494";
+const char pass[] = "<<<REMOVED FROM PUBLIC FILES>>>";
 
-const char connectionString[] = "HostName=huzzah-iothub.azure-devices.net;DeviceId=btn;SharedAccessKey=yVDJJpkX2fbDJoAILyqhHJfz7gv6bV9p1KXHG1HVa6s=";
+const char connectionString[] = "<<<REMOVED FROM PUBLIC FILES>>>";
 
 int status = WL_IDLE_STATUS;
 
