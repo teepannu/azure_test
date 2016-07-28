@@ -19,9 +19,8 @@ and removing calls to _DoWork will yield the same results. */
 
 #include "AzureIoT.h"
 
-//static const char* connectionString = "HostName=[host].azure-devices.net;DeviceId=[device];SharedAccessKey=[key]";
 static const char DeviceId[] = "btn";
-static const char connectionString[] = "HostName=huzzah-iothub.azure-devices.net;DeviceId=btn;SharedAccessKey=yVDJJpkX2fbDJoAILyqhHJfz7gv6bV9p1KXHG1HVa6s=";
+static const char connectionString[] = <<<REMOVED FROM PUBLIC FILES>>>;
 
 const int buttonPin = 13;     // the number of the pushbutton pin
 const int ledPin =  12;      // the number of the LED pin
